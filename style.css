@@ -1,17 +1,15 @@
 body {
-    background-image: url(images/bg-desktop.png);
+    background: url(images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-color: hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row;
-    position:absolute;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
 }
 
 .top {
@@ -57,9 +55,53 @@ body {
 }
 
 .bottom{
-    margin-top: 32px;
     background-color:  hsl(228, 56%, 26%);
-    width: 20%;
-    padding: 80px;
+    width: 30%;
     border-radius: 10px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+h1 {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to left, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 60%);
+    outline: none;
+    opacity: 1;
+  }
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+
+.bottomDown {
+    display: flex;
+    flex-flow: row;
+}
+
+.bottomLeft {
+    margin-right: 40%;
+}
+
+.bottomRight {
+    margin-left: 40%;
 }
