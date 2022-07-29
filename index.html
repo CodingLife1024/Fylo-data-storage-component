@@ -1,39 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-    <div class="top">
-      <img src="images/logo.svg">
-      <div class="smallLogos">
-        <div><img src="images\icon-document.svg"></div>
-        <div><img src="images\icon-folder.svg"></div>
-        <div><img src="images\icon-upload.svg"></div>
-    </div>
-    </div>
-    <div class="bottom">
-      <div class="writing">
-        <h1>You've used <b>815GB</b> of your storage.</h1>
-      </div>
-      <div class="slidecontainer">
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-      </div>
-      <div class="bottomDown">
-        <div class="bottomLeft">
-          <h1>0GB</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+    <div class="component">
+        <div class="item-left">
+            <img src="./images/logo.svg" alt="Fylo Logo">
+            <div class="left-options">
+                <div class="option">
+                    <img src="./images/icon-document.svg" alt="Document Icon">
+                </div>
+                <div class="option">
+                    <img src="./images/icon-folder.svg" alt="Folder Icon">
+                </div>
+                <div class="option">
+                    <img src="./images/icon-upload.svg" alt="Upload Icon">
+                </div>
+            </div>
         </div>
-        <div class="bottomRight">
-          <h1>1000GB</h1>
+        <div class="item-right">
+            <p>You've used <strong>815 GB</strong> of your storage</p>
+            <div class="bottom-container">
+                <div class="storage-bar">
+                    <div class="storage-bar-fill">
+                        <div class="white-circle"></div>
+                    </div>
+                </div>
+                <div class="start-end-container">
+                    <strong>0 GB</strong>
+                    <strong>1000 GB</strong>
+                </div>
+            </div>
+            <div class="tooltip">
+                <div class="triangle">
+                </div>
+                <div class="rectangle">
+                    <h1>185 </h1>
+                    <span>GB LEFT</span>
+                </div>
+            </div>
+            <div class="mobile-tooltip">
+                <h1>185 </h1>
+                <span>GB LEFT</span>
+            </div>
         </div>
-      </div>
-    </div>
     </div>
   </body>
 </html>
