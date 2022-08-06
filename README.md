@@ -16,8 +16,8 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/CodingLife1024/testimonials-grid-section)
-- Live Site URL: [Live Site URL](https://codinglife1024.github.io/testimonials-grid-section/)
+- Solution URL: [Solution URL](https://github.com/CodingLife1024/Fylo-data-storage-component)
+- Live Site URL: [Live Site URL](https://codinglife1024.github.io/Fylo-data-storage-component/)
 
 ### Built with
 
